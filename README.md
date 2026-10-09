@@ -1,17 +1,28 @@
-# Reza & Dela — What should we eat?
+<div align="center">
 
-Single-page random restaurant picker (EN/فارسی). Plain HTML, no build step.
+# 🍽️ Reza & Dela
 
-## Website (GitHub Pages)
-1. Upload everything in this folder to a new GitHub repo (keep `.github/`).
-2. Repo → Settings → Pages → Deploy from branch → `main` / root → Save.
-3. Your site: `https://<username>.github.io/<repo>/`
+### *We don't choose where to eat. The website chooses.*
 
-## Android (installable)
-- **Quick:** open the site in Chrome on Android → ⋮ → *Add to Home screen / Install app*.
-- **APK:** repo → Actions → *Build Android APK* → Run workflow → download `reza-dela-apk` (debug APK; enable "install unknown apps" to sideload).
-- Play Store needs a signed release build (AAB) — see Capacitor docs.
+A random restaurant picker for New Zealand, built for our YouTube videos.
 
-## Edit
-- Background / YouTube link: `CONFIG` at the top of the script in `index.html`.
-- Restaurants: `RAW` array / `DataSource.list()` in `index.html`.
+[▶ Follow us on YouTube](https://www.youtube.com/@RezaandDela)
+
+</div>
+
+---
+
+## How it works
+
+1. **Filter** by city, postcode and type, or skip the filters entirely.
+2. **Press the button** and watch the search scan through every matching place.
+3. **Get one restaurant.** No takebacks. 😈
+
+Every pick is drawn with your browser's secure random generator from the places that match your filters. The result card shows the random seed and how many places were eligible, so the draw is verifiable on camera.
+
+## Features
+
+- Over 2,800 places across New Zealand
+- English and فارسی, with full right-to-left layout
+- Works on desktop, tablet and phone
+- Installable on Android
