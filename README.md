@@ -2,6 +2,9 @@
 
 # 🍽️ Reza & Dela
 
+https://rezazarei1994.github.io/Shansi/
+
+
 ### *We don't choose where to eat. The website chooses.*
 
 A random restaurant picker for New Zealand, built for our YouTube videos.
